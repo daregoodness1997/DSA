@@ -8,6 +8,9 @@ priorityQueue.unshift('John');
 priorityQueue.unshift('Alexander');
 priorityQueue.unshift('Mitrovic');
 
-priorityQueue.shift();
+const reverserArray = priorityQueue.reverse();
+console.log(reverserArray);
 
-console.log(priorityQueue);
+while (priorityQueue.length > 0) {
+  console.log(priorityQueue.pop());
+}
