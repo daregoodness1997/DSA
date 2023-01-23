@@ -9,5 +9,4 @@ stack.push('ManUtd');
 
 // const myFavTeam = stack.pop();
 
-console.log(stack.peek());
 console.log(stack);
